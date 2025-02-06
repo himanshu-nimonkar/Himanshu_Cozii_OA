@@ -1,3 +1,5 @@
+Live Link: https://himanshu-cozii-fut5ry4lj-himanshu-nimonkars-projects.vercel.app/
+
 # Mars Visit Application - Website
 
 This is a web-based application built to simulate the process of applying for a visit to Mars. The project is designed using **HTML**, **CSS**, and **JavaScript** for a simple yet effective form submission experience.
@@ -72,6 +74,18 @@ yarn dev
 Then navigate to http://localhost:3000 (or another port if specified) to view the application.
 
 
+4. Build the production-ready version: After you've tested and finalized your changes locally, you can run:
+npm run build
+# or
+yarn build
+This will create a production-optimized version of the application, which you can then deploy to a server or use for production purposes.
+
+
+After running npm run build, you can deploy the generated build (usually in the .next directory) or serve it using a production server. To test locally after building, you can use:
+npm start
+# or
+yarn start
+This will serve your app using the production build at http://localhost:3000
 
 Explanation of Code
 1. HTML Structure (index.html, form-summary.html):
@@ -92,17 +106,6 @@ Form Validation: Ensures all required fields are filled out before submission.
 Form Handling: When the user clicks the "Submit" button, their data is captured and displayed on the confirmation page.
 Dynamic Changes: Some fields and questions appear based on the user's previous selections.
 
-
-
-Project Deployment
-Deploying on Vercel:
-You can easily deploy this application on Vercel, a platform built for Next.js applications. 
-
-To deploy:
-Go to Vercel's Website and sign in.
-Click New Project and select your GitHub repository.
-Follow the prompts to deploy the project.
-For detailed instructions on deploying to Vercel, you can refer to Vercel's Documentation.
 
 Contact Information
 For any queries or suggestions, feel free to reach out at:
